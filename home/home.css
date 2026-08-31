@@ -1,0 +1,71 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 120px;
+    padding-block: 15px;
+    height: 10vh;
+    width: 100vw;
+
+    background: var(--azul-escuro);
+
+    a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    /* rem = 16px, em = pai*/
+    font-weight: 600;
+}
+
+/* Primeira seção*/
+
+.banner-principal {
+    color: #FFFFFF;
+    height: 85vh;
+    background-image: url(../imgs/banner-principal-home.png);
+    background-size: cover;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px;
+
+    img {
+        align-self: flex-end;
+        width: auto;
+        height: 90%;
+    }
+
+}
+
+.texto-banner-principal {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+
+    p {
+        font-size: 1.5em;
+        width: 50%;
+    }
+}
+
+.botao {
+    padding: 20px 50px;
+    border-radius: 10px;
+    background-color: var(--azul-claro);
+    color: var(--azul-escuro);
+    font-weight: 500;
+    text-decoration: none;
+
+}
