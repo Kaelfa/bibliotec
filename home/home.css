@@ -45,7 +45,7 @@ a
 
     height: 70vh;
 
-    background-image:url(../Projeto\ Bibliotec/imgs/banner-principal-home.png);
+    background-image:url(../imgs/banner-principal-home.png);
     background-size: cover;
 
 
@@ -57,6 +57,7 @@ a
 }
 
 .texto-banner{
+    color: var(--texto);
     height: 100%;
     align-items: flex-start;
     display: flex;
@@ -194,7 +195,7 @@ a
 
 .banner-meio{
     height: 60vh;
-    background-image: url(../Projeto\ Bibliotec/imgs/Banner\ centro.svg);
+    background-image: url(../imgs/Banner\ centro.svg);
     background-size: cover;
 
     display: flex;
