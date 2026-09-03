@@ -274,7 +274,7 @@ a
 .inferior span{
     background-color: var(--branco);
     display: flex;
-    width: 1895px;
+    width: 100%;
     height: 3px;
 }
 
