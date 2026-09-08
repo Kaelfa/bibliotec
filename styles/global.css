@@ -9,8 +9,10 @@
 :root {
     --azul-escuro: #26333D;
     --texto: #26333D;
-    --branco:#FFF;
+    --branco: #FFF;
     --cor-destaque: #2FD6CB;
+    --fundos: #E9F0EF;
+    --textos-paginas: #535353;
 }
 
 body {
@@ -21,4 +23,45 @@ body {
 
 html {
     scroll-behavior: smooth;
+}
+
+a {
+    color: var(--branco);
+    text-decoration: none;
+    /* tira o sublinhado do link */
+}
+
+.cabecalho {
+    background-color: var(--azul-escuro);
+
+    display: flex;
+
+    /* alinha nosentido do flex */
+    justify-content: space-between;
+
+    /* alinha no sentido contrário do flex */
+    align-items: center;
+
+    padding: 0 120px;
+    height: 10vh;
+    /* 10% da visualização vertical do dispositivo*/
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+
+    gap: 50px;
+}
+
+.navegacao a {
+    text-transform: uppercase;
+    font-size: 1em;
+    /* equivale a 16px */
+    font-weight: 500;
+}
+
+.ativo {
+    padding-bottom: 10px;
+    border-bottom: 4px solid var(--cor-destaque);
 }
