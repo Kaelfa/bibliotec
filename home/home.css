@@ -388,6 +388,10 @@ footer span {
         padding: 0 30px;
     }
 
+    .banner-principal img{
+        width: 100%;
+    }
+
     .banner-meio .texto-banner {
         align-items: flex-end;
     }
@@ -580,7 +584,15 @@ footer span {
 
 }
 
-@media(max-width: 440px) {
+@media(max-width: 500px) {
+
+    .banner-meio{
+        background-position: 40%
+    }
+
+    .banner-principal img {
+        width: 70%;
+    }
 
     .beneficio {
         padding: 30px 40px 30px;
@@ -592,12 +604,12 @@ footer span {
         padding: 30px 30px 8px;
     }
 
-    .rodape-informacoes{
+    .rodape-informacoes {
         display: flex;
         flex-direction: column;
     }
 
-    .rodape-logos{
+    .rodape-logos {
         display: flex;
         flex-direction: column;
         align-self: flex-start;
