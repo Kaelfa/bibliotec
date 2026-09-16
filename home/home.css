@@ -26,7 +26,7 @@
 
     align-items: flex-start;
     justify-content: center;
-
+    position: transform;
     gap: 50px;
 }
 
@@ -320,6 +320,7 @@ footer span {
     display: none;
     /* esconde o elemento */
 }
+
 
 .botao-menu i {
     font-size: 2em;
